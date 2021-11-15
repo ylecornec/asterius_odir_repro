@@ -17,4 +17,10 @@ sudo docker run --rm -v $(pwd):/workspace -w /workspace terrorjack/asterius ahc 
 
 The output `.o` file is : `./odir/subdir/lib.o`.
 
-(If we remove the `-c` option, then the output is located in `./odir/Lib.o` in both case.)
+(If we remove the `-c` option, then the output is located in `./odir/Lib.o` in both cases.)
+
+## versions
+
+The ahc version from the docker image is `8.8.4`.
+
+Regarding ghc, I tried version `8.8.4` as well as `8.10.7` and the behavior is the same.
